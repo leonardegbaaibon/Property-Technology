@@ -1,27 +1,27 @@
-# Property Technology - Real Estate Selling App (Frontend Only)
+# Property Technology - Real Estate Selling App (Frontend Only - Mobile App)
 
-Welcome to **Property Technology**! This is the frontend of a real estate application designed to make it easy to browse and list properties across different states. The focus of this project is on the user interface and experience, with no backend or APIs integrated yet. This app allows users to explore the property listing flow and interact with the UI for a seamless property-buying or selling experience.
+Welcome to **Property Technology**! This is the frontend of a real estate mobile application designed to make it easy to browse and list properties across different states. The focus of this project is on the user interface and experience, with no backend or APIs integrated yet. This app allows users to explore the property listing flow and interact with the UI for a seamless property-buying or selling experience.
 
 ---
 
 ## 🚀 Features (UI Focused)
 - **State-Wide Listings**: Browse properties listed from different states with a simple, user-friendly interface.
 - **Easy Sign-Up Flow**: A quick and easy sign-up process with email or social media authentication (UI only, no backend integration).
-- **Interactive UI**: Designed with React and styled with Tailwind CSS to ensure a responsive and smooth experience across all devices.
+- **Interactive UI**: Designed with React Native and styled with Tailwind CSS to ensure a responsive and smooth experience on mobile devices.
 - **Property Details**: Preview detailed property information with images, price, and description (static content for now).
 - **Search Filters**: Explore properties by state, price range, property type, etc., using static filters.
 
 ---
 
 ## 📱 Platform
-- **Web (Desktop & Mobile)**: The app is responsive and designed for both desktop and mobile web platforms.
+- **Mobile (Android & iOS)**: The app is designed for mobile platforms (React Native).
 
 ---
 
 ## 🛠️ Technologies Used
-- **Frontend**: React (UI)
+- **Frontend**: React Native (UI)
 - **Styling**: Tailwind CSS for a clean, responsive design
-- **Routing**: React Router for navigation between pages
+- **Routing**: React Navigation for navigating between screens
 - **State Management**: React useState/useEffect for managing local state
 - **Icons**: FontAwesome or Material Icons (for UI elements)
 
@@ -52,15 +52,20 @@ Welcome to **Property Technology**! This is the frontend of a real estate applic
     ```
 
 3. **Run the app**:
-    ```bash
-    npm start
-    ```
+    - For Android:
+      ```bash
+      npx react-native run-android
+      ```
+    - For iOS:
+      ```bash
+      npx react-native run-ios
+      ```
 
-4. **Open in browser**: Once the development server is running, open the app in your browser by navigating to `http://localhost:3000`.
+4. **Open in emulator or device**: The app will run on your emulator or connected mobile device once the build process is complete.
 
 ---
 
-## 📝 Pages & Flow
+## 📝 Screens & Flow
 
 - **Landing Page**: Displays a hero section, search bar, and featured properties.
 - **Sign-Up Page**: Simple form for users to enter their name, email, and password to create an account.
@@ -108,4 +113,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Thank you for checking out **Property Technology**—the simple and beautiful way to browse and list properties across states (for now, all on the frontend)!
+Thank you for checking out **Property Technology**—the simple and beautiful way to browse and list properties across states (for now, all on mobile platforms)!
